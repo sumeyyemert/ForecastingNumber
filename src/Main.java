@@ -32,7 +32,7 @@ public class Main {
                   isWrong = true;
                   System.out.println("Bir daha hatalı girişinizde hakkınızdan düşülecektir.");
               }
-              continue;
+             continue;
           }
           if(selected == number){
               System.out.println("Tebrikler, doğru tahmin !" +
@@ -47,7 +47,7 @@ public class Main {
                   System.out.println(selected + " sayısı gizli sayıdan küçüktür.");
               }
               wrong[right++] = selected;
-              System.out.println("Kalan hakkı : " + (5 - right));
+              System.out.println("Kalan hakkınız : " + (5 - right));
           }
         }
         if(!isWin){
